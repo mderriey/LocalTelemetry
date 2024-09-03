@@ -19,7 +19,7 @@ services:
     volumes:
       - seq-data:/data
     ports:
-      - 8080:80
+      - 4322:80
 
   jaeger:
     image: jaegertracing/all-in-one
