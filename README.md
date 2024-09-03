@@ -14,7 +14,7 @@ Configure your application to send OpenTelemetry data (traces, logs, and metrics
 
 Then you will have access to the dasboards below:
 
-[Seq (logs + traces)](http://localhost:8080/)
+[Seq (logs + traces)](http://localhost:4322/)
 
 [Jaeger (traces)](http://localhost:16686/)
 
