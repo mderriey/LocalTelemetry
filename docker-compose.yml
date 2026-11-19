@@ -56,7 +56,7 @@ services:
     ports:
       - 18888:18888
     environment:
-      - DOTNET_DASHBOARD_UNSECURED_ALLOW_ANONYMOUS=true
+      - ASPIRE_DASHBOARD_UNSECURED_ALLOW_ANONYMOUS=true
 
 # Traces are ephemeral.
 # Logs and metrics are persisted.
